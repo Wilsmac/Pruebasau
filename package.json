@@ -1,0 +1,19 @@
+{
+  "name": "sau-sticker-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bot de WhatsApp con un único comando .sau para stickers animados con audio (prototipo experimental).",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "baron-baileys-v2": "github:7ucg/baron-baileys-v2",
+    "dotenv": "^16.4.7",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
